@@ -1,12 +1,18 @@
 Package: HealthClimateReview
-Title: What the Package Does (One Line, Title Case)
+Title: A collection of datasets from systematic reviews in health and climate
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(person("Matt", "Grainger",
+    "matthewjamesgrainger@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8426-6495")),
+           person(given = "Neal",
+         family = "Haddaway",
+         role = c("cre"),
+         email = "nealhaddaway@gmail.com",
+         comment = c(ORCID = "0000-0003-3902-2234"))
+           
+Description: Provides data from published systematic reviews in health and climate
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
