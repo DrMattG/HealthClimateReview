@@ -7,7 +7,7 @@ The HealthClimateReview R package contains a large collection of published datas
 
 ## Installation
 
-You can install HealthClimateReview from GitHub using the `devtools` package:
+You can install HealthClimateReview from GitHub using the `remotes` package:
 
 ```R
 # Install remotes package if you haven't already
